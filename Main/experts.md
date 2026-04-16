@@ -25,17 +25,17 @@ AI-powered SEO content production uses artificial intelligence to automatically 
 - Focus: Semantic SEO
 - Why selected: Deep and advanced SEO concepts useful for research
 
-## Authority Hacker
-- Platform: Blog, Podcast
-- Link: https://www.authorityhacker.com/
-- Focus: Affiliate SEO and content scaling
-- Why selected: Shares proven SEO case studies and strategies
+## Lily Ray
+- Platform: LinkedIn, Twitter, Conferences  
+- Link: https://www.linkedin.com/in/lily-ray/  
+- Focus: Core Updates, E-E-A-T, algorithm analysis  
+- Why selected: One of the strongest analysts of Google algorithm updates and ranking volatility patterns.
 
-## Hridoy Chowdhary
-- Platform: Linkedin
-- Link: https://www.linkedin.com/in/seo-expert-in-london/
-- Focus: Marketing author, keynote speaker, MarketingProfs Chief Content Officer
-- Why selected: Relevance to SEO industry and Google ranking strategies
+## Aleyda Solis
+- Platform: Blog, YouTube, Twitter  
+- Link: https://www.aleydasolis.com/  
+- Focus: Technical SEO, international SEO, SEO strategy  
+- Why selected: Provides structured, enterprise-level SEO frameworks and global SEO execution systems.
 
 ## Mark Williams-Cook
 - Platform: LinkedIn
@@ -43,17 +43,10 @@ AI-powered SEO content production uses artificial intelligence to automatically 
 - Focus: Technical and data-driven SEO
 - Why selected: Analytical approach to SEO and algorithms
 
-## Surfer SEO
-- Platform: Tool, Blog
-- Link: https://surferseo.com/
-- Focus: AI content optimization
-- Why selected: Widely used AI SEO tool with real applications
-
-## Jasper AI
-- Platform: Blog
-- Link: https://www.jasper.ai/
-- Focus: AI content writing
-- Why selected: Popular AI tool used for SEO content generation
+## Danny Sullivan Platform: Google Search Liaison (Blog, Twitter)
+- Link: (https://www.linkedin.com/in/dannysullivan/)
+- Focus: Google Search updates, algorithm communication
+- Why selected: Official communicator of Google Search updates and ranking system changes.
 
 ## Ross Simmonds
 - Platform: LinkedIn
