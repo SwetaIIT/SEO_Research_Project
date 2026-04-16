@@ -44,7 +44,7 @@ AI-powered SEO content production uses artificial intelligence to automatically 
 - Why selected: Analytical approach to SEO and algorithms
 
 ## Danny Sullivan Platform: Google Search Liaison (Blog, Twitter)
-- Link: (https://www.linkedin.com/in/dannysullivan/)
+- Link:  https://www.linkedin.com/in/dannysullivan/
 - Focus: Google Search updates, algorithm communication
 - Why selected: Official communicator of Google Search updates and ranking system changes.
 
