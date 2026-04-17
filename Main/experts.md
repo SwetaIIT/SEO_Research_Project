@@ -13,6 +13,12 @@ AI-powered SEO content production uses artificial intelligence to automatically 
   - Focus:Technical SEO + Data-driven SEO + Real-world performance SEO (ROI-focused)
   - Why selected: Strong data-driven and technical approach to SEO, with a focus on real performance metrics.
 
+## ## Charles Floate
+Platform: SEO Entrepreneur, Blogger, LinkedIn 
+Link: 
+Focus: Link building, parasite SEO, experimental SEO strategies  
+Why selected: Experiment-driven approach to SEO, particularly in link building and ranking mechanics, offering practical insights.
+
 ## Julian Goldie
 - Platform: YouTube
 - Link: https://www.youtube.com/@JulianGoldieSEO
