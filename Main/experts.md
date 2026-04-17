@@ -7,6 +7,12 @@ AI-powered SEO content production uses artificial intelligence to automatically 
 - Focus: SEO + AI automation
 - Why selected: Shares real SEO case studies and advanced AI SEO workflows
 
+## Daniel Foley Carter
+  - Platform: Linkedin
+  - Link: https://www.linkedin.com/in/daniel-foley-assertive/
+  - Focus:Technical SEO + Data-driven SEO + Real-world performance SEO (ROI-focused)
+  - Why selected: Strong data-driven and technical approach to SEO, with a focus on real performance metrics.
+
 ## Julian Goldie
 - Platform: YouTube
 - Link: https://www.youtube.com/@JulianGoldieSEO
