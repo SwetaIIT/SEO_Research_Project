@@ -6,23 +6,26 @@ All selected experts are documented in `expert.md`, which includes 10 SEO practi
 
 ## Project Structure
 
-Main/
-├── README.md
-├── experts.md
-├── research/
-│
-│ ├── code/
-│ │ ├── youtube.py
-│ │ ├── blog.py
-│ │ ├── linkedin.py
-│ │
-│ ├── youtube-transcripts/
-│ │
-│ ├── linkedin-posts/
-│ │
-│ ├── other/
+## Architecture Diagram
+flowchart
 
+flowchart TD
 
+A[Main Repository]
+
+A --> B[README.md]
+A --> C[experts.md]
+
+R[Research Repository]
+
+R --> C1[code/]
+C1 --> C2[youtube.py]
+C1 --> C3[blog.py]
+C1 --> C4[linkedin.py]
+
+R --> T[youtube-transcripts (3 files)]
+R --> L[linkedin-posts (3 files)]
+R --> O[other (4 files)]
 
 
 ## Data Collection Methods
