@@ -19,23 +19,29 @@ AI-powered SEO content production uses artificial intelligence to automatically 
 - Focus: SEO systems and training
 - Why selected: Structured and beginner-friendly SEO frameworks
 
-## Koray Tugberk Gubur
-- Platform: Blog
-- Link: https://www.holisticseo.digital/
-- Focus: Semantic SEO
-- Why selected: Deep and advanced SEO concepts useful for research
+## Gerry White
+- Platform: Linkedin
+- Link: https://www.linkedin.com/in/dergal/
+- Focus:Technical SEO + Data Analytics + Automation
+- Why selected: Recognized for combining technical SEO with data analytics & automation.
 
 ## Lily Ray
 - Platform: LinkedIn, Twitter, Conferences  
 - Link: https://www.linkedin.com/in/lily-ray/  
 - Focus: Core Updates, E-E-A-T, algorithm analysis  
-- Why selected: One of the strongest analysts of Google algorithm updates and ranking volatility patterns.
+- Why selected: One of the strongest analysts of Google algorithm updates and ranking patterns.
 
 ## Aleyda Solis
 - Platform: Blog, YouTube, Twitter  
 - Link: https://www.aleydasolis.com/  
 - Focus: Technical SEO, international SEO, SEO strategy  
 - Why selected: Provides structured, enterprise-level SEO frameworks and global SEO execution systems.
+
+## Koray Tuğberk
+- Platform: Blog, Linkedin
+- Link: https://www.linkedin.com/in/koray-tugberk-gubur/
+- Focus: Topical Authority & "Topical Maps"
+- Why selected: He understand the underlying mathematical and linguistic mechanics of search engines.
 
 ## Mark Williams-Cook
 - Platform: LinkedIn
