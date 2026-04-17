@@ -1,7 +1,7 @@
-Koray Tugberk Gubur
-Source - Blog
-
 Title: Data Science SEO and Visualization with Python - Holistic SEO
+Source: https://www.holisticseo.digital/python-seo/data-science/
+
+Transcript:
 					
 Holistic SEO » Python SEO » Data Science SEO and Visualization: Retrieving SERP, Crawling Landing Pages, and Analyzing Google Algorithms with Python
 This article has been prepared as a tutorial to show how to Retrieve Google SERP with regular periods, animate the differences to see Google Search Engine’s preference and experiment algorithms. In this article, we will use Semantic Search Queries to understand the topical coverage and topical authority of certain domains. We will retrieve all of the related Search Engine Result Pages (SERP) for these queries, crawl landing pages, blend the crawl data with also Google Search Engine’s SERP dimensions and third-party page information to find different correlations and insights for the SEO via Data Science.
