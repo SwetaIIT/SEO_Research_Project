@@ -22,7 +22,6 @@ R[Research Repository]
 - R --> L[linkedin-posts (3 files)]
 - R --> O[other (4 files)]
 
-
 ## Data Collection Methods
 
 ### 1. YouTube Transcripts
@@ -48,6 +47,5 @@ R[Research Repository]
 - Claude Code (AI-assisted coding)
 - OpenAI Codex (AI coding assistant for workflow automation)
 - GitHub (project hosting)
-
 
 
