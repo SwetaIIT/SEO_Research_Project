@@ -1,7 +1,8 @@
-Expert - Ross Simmonds
 Title: Visibility In LLMs: How Distribution Opens The Gates To LLM Citations
+Source: https://rosssimmonds.com/blog/visibility-llms/
 
-Transcript - 
+Transcript: 
+
 The best time to start optimizing for AI visibility was ten years ago. The second best time is right now. Wait… What? LOL…How could we do it 10 years ago when AI didn’t exist?!Ah. Great question.You shouldn’t have been trying to manipulate Google for the last 10 years. You should have been creating content for your audience, where your audience was and doing everything possible to distribute that story EVERYWHERE.
 So yeah….I mean 10 years ago very literally…The brands winning the citation game in ChatGPT, Perplexity, and Google AI Overviews today are mostly winning because of content decisions made years ago. SEO investments. Community presence. Review profiles. All of it built long before anyone used the phrase “generative engine optimization.” Here’s what nobody is saying loudly enough: Most of the work that goes into LLM visibility isn’t new. It’s years of digital distribution.It’s the stuff a lot of companies have always been too busy to do consistently but that some of the best companies have embraced since day one. The companies that did the work are getting cited by AI systems at scale… The companies that didn’t are scrambling. Let’s break down what’s happening, what the data says, and where opportunity still exists for those playing catch up… When people talk about LLMs, they picture ChatGPT. Maybe Perplexity. Maybe Claude or Gemini.
 
