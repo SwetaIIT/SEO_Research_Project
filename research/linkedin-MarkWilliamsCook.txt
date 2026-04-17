@@ -1,0 +1,15 @@
+Mark Williams-Cook
+
+Linkedin Post:
+
+Unsolicited hashtag #SEO tip: Here are some of the most common mistakes I have seen doing >100 website migrations:
+
+📉 Not setting up redirects for non-canonical URLs with backlinks (e.g. with marketing parameters)
+📉 Not realising URLs are case sensitive and making broken redirects
+📉 Migrating a global website to a ccTLD instead of gTLD
+📉 Not migrating images
+📉 Not migrating or redirecting assets with links (e.g. PDFs)
+📉 Moving high-traffic pages 'down' in link structure on new website
+📉 Removing 'non-commercial' URLs that have great links and letting them 404
+📉 Breaking structured information (e.g. tables into CSS)
+📉 and of course - going live with "noindex" still on
