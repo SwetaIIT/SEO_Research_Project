@@ -1,1 +1,36 @@
+Daniel Foley Carter
+Linkedin Post:
 
+Transcript 
+
+Key things to note for GEO:
+
+1. Searchers using LLMS are more likely to search 5-10+ words on average, this significantly increases the volume of "ZSV" prompts that would otherwise never get tracked
+
+2. Whilst SEOs have Google Search Console for query impression data, AI platforms do not provide keyword data or any impression data - therefore all prompt search volumes are assumed and likely derived from "other" sources as a benchmark
+
+3. Citations are not consistent you have too many variables:
+
+> LLM
+> LLM Model
+> Personalisation and memory
+> Different pipeline/RAG
+> Different retrieval sourcing
+> Localisation
+> Randomisation (natural in LLM output)
+
+4. LLM Models sometimes change whether or not:
+
+> They cite the origin source or the target brand
+> Whether any link is given with the citation
+
+I could go on.
+
+I AM PRO doing what you can to be cited and appear more in LLMS.
+
+But I think it's time we had a sensible conversation about the practicalities of:
+
+1. Tracking and the value it brings
+2. How you measure impact
+3. How you define success and correlation with visibility improvements
+4. What GEO actually is that isn't already SEO or something else
