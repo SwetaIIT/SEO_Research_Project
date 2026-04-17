@@ -1,1 +1,30 @@
+Charles Floate
+Linkedin Post:
 
+Transcript-
+What Claude skills are you using for SEO?
+
+Here's my FULL, custom built stack for reverse engineering SERPs to building the most detailed briefs you've ever seen...
+
+These aren't generic prompts, they're custom Skills I built specifically for how I do SEO, loaded into Claude as permanent tools (Connected to things like Ahrefs MCP) that run every time I need them:
+
+1. SERP Consensus Analyser
+2. Competitor Content Consensus
+3. OnPage Optimisation
+4. Competitor Backlink Analyser
+5. Self-Audit QA Gate
+
+The key insight most people miss about Claude Skills: They're not prompts...
+
+They're persistent, reusable systems with specific methodologies baked in. Every skill has its own file with best practices, output formats, and decision logic with corresponding MCPs/Connectors.
+
+I built these over months of iteration!
+- SERP Consensus → Content Consensus → OnPage Optimization is a full content strategy pipeline.
+
+- Competitor Backlink Analyser feeds my link building campaigns. 
+
+- Self-Audit QA Gate ensures quality control on everything.
+
+This is what I mean when I say AI makes good SEOs faster 🙌
+
+It doesn't replace the strategy, it automates the execution of a strategy that took 17 years to develop.
