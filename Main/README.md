@@ -7,6 +7,6 @@ This project is an AI-Powered SEO Content Engine designed to automate the proces
 This project collects insights from top SEO experts to understand how AI is used in content production.
 
 ## Structure
-- research/sources.md → Experts list
+- SEO_Research_Project/Main/experts.md → Experts list
 - research/linkedin-posts/ → LinkedIn content
 - research/youtube-transcripts/ → YouTube transcripts
