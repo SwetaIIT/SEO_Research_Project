@@ -1,0 +1,149 @@
+Title: My Takeaways From Vibe Coding As A Non-Coder
+Danny Sullivan
+Source: https://dannysullivan.com/vibe-coding-takeaways-6885
+
+January 16, 2026
+In part one — How I vibe coded a TV show & movie watchlist web app with no coding experience — I covered the step-by-step process of going from an idea to vibe coding with AI to transform it into a working TV & movie watchlist site called What To Watch Next (WTWN). In this part, my takeaways….
+
+Image by Google Gemini
+Image created with Google Gemini
+As with the first part, this is a long post! Here are links to jump to particular sections, if you prefer to read only key parts of interest:
+
+Vibe coding lessons learned for the non-coder
+How AI made site development easy
+Of Models & Metering
+What vibe coding couldn’t do for me as a non-coder
+Vibe coding makes coders more valuable?
+Vibe coding lessons learned for the non-coder
+My one vibe coding project doesn’t make me an expert in terms of lessons and advice for other non-coders! A real coder will have better advice (and likely laugh at some of what I’m saying). But my own takeaways might be useful…
+
+Look for an easy, integrated solution
+For all the difficulty I had with Vercel v0 (largely self-inflicted; I’m not sure how well I’d have ever progressed without it), it was a super easy solution for me to use. I had a chat window, and a preview window showing me what my site looked like in testing. It could natively deploy my code onto the web. I didn’t even need my own domain to do it.
+
+In contrast, Gemini  – where this project all began – just gave me the code and left me to figure out the rest. It wasn’t really designed to ease a non-coder or non-developer into putting the code up somewhere.
+
+As for Claude Code, I liked that it had a web interface for chatting but not that it lacked a way to preview my site. I eventually got very comfortable with running it in a terminal window on my desktop and previewing off a local server — but that leveraged things my youngest son had installed on my computer for me. It was far from frictionless.
+
+There are probably other things like v0 out there; I might update this post later to list some of them. And I’d expect / hope that Google and Anthropic (and others!) make it easier for non-coders to work with their Gemini and Claude models, assuming that’s really an audience they want to grow.
+
+Provide lots of details
+The more you tell a model, the more it can help you. If you’re starting out, tell it everything you’d like to do from the beginning and why you are thinking that way. As you move to refine particular parts of the project, continue to explain the what and why in a feature. This all can cause the model to suggest better solutions and possibilities.
+
+Try to find a common language
+This is related to giving lots of details. What you call things as a non-coder might be different than what the model understands. If it’s stalling, think if there’s another way you can explain the situation.
+
+For example, I was getting frustrated that when moving a watchlist card higher or lower in a list, the card I was working with would move and another would jump into its place. I wanted to stay with the card I was moving, so that I could keep moving it up or down. To me, this was keeping the “focus” on the card. 
+
+v0 kept telling me that everything was fine, that focus was working. Then it finally realized we were talking about different things:
+
+AI Response:
+
+However, I understand the real issue now - when you say "focus doesn't stay on the card," you don't mean programmatic focus (which IS working), you mean visual tracking - the card moves in the list and scrolls out of view, so you lose track of where it went.
+
+The solution isn't about HTML focus - it's about keeping the card centered in the viewport as it moves. Let me fix the import error first, then implement proper scroll-into-view behavior:
+Do things one-at-time
+At first, I’d tell the model to do a bunch of things all at once, and all within a single session. By the end of the project, I’d learned to have it work on one particular thing as much as possible, and to start new sessions to begin work on something else. If the thing I’d asked to be done turned out to be complicated, such as if it presented a multi-step approach to do it, I’d have it summarize some of the later steps that needed to be done and copy that into a new session to go forward.
+
+Remember, remember, that it doesn’t remember
+What you do in one session, the model typically isn’t going to know about in another. It can read through your code and understand what’s there and make guesses. But don’t be afraid to question or inform it. For example, in one session the model did a lot of work to optimize how provider information was rendered on the size. In another session, it decided it didn’t like how that was configured. I had to remind it why it decided to do it that way previously and once informed, it agreed with its other self.
+
+Know a coder
+If you’re not a coder, this is all confusing. You can learn by doing. I’ve certainly learned a lot. But doing this without my youngest son answering questions made it so much easier. Or hire one … more on this at the end.
+
+How AI made site development easy
+Beyond just coding, I was impressed with how AI made some standard site development processes easier – things you don’t have to be a coder to do, but where you probably have to have a tool that can insert HTML code or other things into your site.
+
+For example, I wanted the site to have a favicon and site name to appear in Google results. I know intimately all the things that are required to make that happen because of my work with the search team at Google. I’ve helped write and develop the two help pages Google has on the subject. Instead of me doing the work, I told v0 to read the pages and make things the way they should be – and it did. Easy!
+
+(And no, my site name doesn’t appear yet and my favicon only sometimes appears. That’s not because things are misconfigured but because it can simply take time for Google to feel confident about showing such things for new sites. And no, I can’t and wouldn’t and couldn’t speed this up for my site outside the usual processes because that would all be against the long-standing Google Honest Results policy, the current page about it being another one I helped develop and write).
+
+In another example, I needed to make a privacy policy. I was super impressed that v0 figured out what was deployed on my site (two analytics programs) and generated a privacy policy detailing these. Similarly, when I told it I needed a cookie consent setting, it made that too.
+
+I was even more blown away when it came to making my help page. I’d drafted my own walk-through of everything. I was going to post this through a page editing tool I’d vibe-added to the site. Then working with Claude, I asked it to review of what I wrote against all the features it knew were in the site from the code. Claude caught things I hadn’t covered and proposed making some of my original language simpler and more step-based.
+
+From there, we worked together, me looking at what it might suggest, me showing it what I thought we might say, bouncing ideas off each other in a way I’m so familiar with in terms of human collaboration. We used this same process for other key pages in the site. They weren’t written by Claude, not at all – but they certainly were written with it, and it made the process so much easier. In the end, I even told to get rid of the page editor entirely. I could more easily give it copy in chat, watch it build that into a page, then edit, iterate and build.
+
+In yet another example, for one of my features, I wanted the ability for users to switch countries. I didn’t want to have an alphabetical list. I wanted to have those who were most likely to be using the site to have their likely options first. I was thinking about how to order things when I found it already had done so, explaining to me how it did this:
+
+User Prompt:
+
+why did you order the list of countries in the way you did. i like it but want to understand why
+
+AI Response:
+
+I ordered the country list strategically based on several factors:
+
+English-speaking markets first (US, UK, Canada, Australia) - These tend to have the most comprehensive streaming data in TMDB and are likely the largest user base for an English-language app
+
+Major European markets (Germany, France, Spain, Italy) - Large populations with well-established streaming ecosystems
+
+Key Asian markets (Japan, South Korea) - Strong streaming cultures and distinct content libraries
+
+Latin America (Brazil, Mexico) - Large markets with growing streaming adoption
+
+India - Massive market with unique streaming providers
+
+Nordic/smaller European countries (Netherlands, Sweden, Norway, Denmark, Finland, Poland, Belgium, Austria, Switzerland, Ireland) - High digital adoption and English proficiency
+
+Other English-speaking (New Zealand, Singapore) - Rounding out the list
+
+The ordering prioritizes market size, streaming service availability, and likelihood of English-speaking users while ensuring good geographic diversity. It's not strictly alphabetical but rather optimized for user convenience - most users will find their country near the top.
+That ordering wasn’t really a coding thing. It was more a UI thing, and one that AI helped with.
+
+It’s hard to launch a site. I know this from having launched about 10 or so in my 30 years of being on the web. There are a lot of moving parts, things to think about, stuff to put in place that’s beyond deploying code. I really hadn’t thought much until now about how “vibe launching” or whatever you want to call it, but I can see how it could enable so many more people and businesses with the necessary but difficult logistics of getting online.
+
+If you want another take on this, as I was writing this post, Casey Newton shared his own experience with vibe coding that’s well worth reading (as is his Platformer newsletter generally). 
+
+Of Models & Metering
+I started with Gemini because that was the current chatter I’d heard about – and it was free. But as a non-coder, the world of models quickly became confusing, undependable and expensive. Not as expensive as hiring a human coder, but the costs did begin to mount.
+
+At some point, Gemini did prompt me to upgrade my existing Google One account from the $10 per month I was paying for the Premium plan with 2TB of storage to $20 per month Google AI Pro plan. Same storage, an extra $10 to access Gemini for my vibe coding and so far, haven’t had a rate limit warning.
+
+With Vercel, I began with a free “Hobby” plan but quickly moved to the $20 per month “Pro” plan and then started buying more credits as I ran out. At times, I felt like I was feeding $20 bills into a slot machine (that’s how much credit I’d buy at a time). I also felt like I was back in the days of dial-up internet when you had to pay by the minute, hating that old sense of hearing “cha-ching, cha-ching!” in my head.
+
+Worse was when it wiped out my code, and I had to burn money getting things back in order. To be fair, this was self-inflicted by my lack of experience. I also did appreciate at times if it spotted a minor bug, it might offer to fix it for free:
+
+Error Message:
+
+Runtime Error Identifier 'handleCategoryDrop' has already been declared [Button] Fix with v0 Free
+Moving to Claude, my $20 plan hit the rate limit pretty fast. The $100 a month plan was much better, until last Thursday when suddenly I got a mystery error in Cursor. “This credential is only authorized for use with Claude Code and cannot be used for other API requests.” 
+
+What? What? I hadn’t subscribed to Claude Code – I subscribed to Claude! Or so I thought. Apparently, Anthropic (which runs Claude) decided that unless you’d purchased a completely separate API subscription (which I had no idea about), you could only use your Claude subscription with its own Claude Code tool.
+
+On top of the cost, as a non-coder, I really have no idea what model to use and for what. When I started with Vercel v0, I could choose Gemini or Claude and went with Gemini because that’s where I started. But somewhere along the way (apparently in December), Gemini disappeared. Claude disappeared. My options were now v0 Mini, v0 Pro and v0 Max. As a non-coder, I couldn’t tell if a particular task was easy enough for a cheaper model or not.
+
+With OpenCode in Cursor, I had several free models to choose from and went with GLM-4.7 when I got rate limited by Claude. Why that? Well, the number was similar to Claude. Which meant absolutely nothing, I know!
+
+After the Great Claude Code Cutoff, I went back to trying Gemini again in OpenCode. For some reason, now it seemed happy to work with my local files and setup without warning I needed a Google Cloud project. But which Gemini should I use? There were over 20 versions offered. I went with Gemini 3 Pro Preview because the number was, again, higher (though I felt more confident this is a good choice).
+
+As a non-coder, I don’t want to think about this stuff. I want a tool to intelligently make the right choice for me. Thinking about it like a car, I don’t want to shift gears manually. I want to be automatic let the car shift me up-and-down as useful.
+
+What vibe coding couldn’t do for me as a non-coder
+I never thought I’d be able to code the site that I’ve now made on my own. Indeed, I didn’t – AI did. My sons helped at points with the process of generating code, but they didn’t write any of it. No human did.
+
+By no means does this illustrate that coders are no longer needed, a soon-to-be extinct breed. There are any number of things that, if I were an experienced coder or developer, I would have perhaps better thought out. A few examples:
+
+Backups: I spent a lot of time on backup options for user data because I’m personally paranoid about losing my data, not because it’s something as a developer I knew to do. Even with my backup option, the database itself is probably not being backed up as it should. I learned this the hard way as data got corrupted there twice during development, as I also learned about why I might want the database itself on a plan with restore points.
+
+Security: At some point, I realized that the AI had stored things like my API keys in the code itself, which I knew wasn’t a great idea. But are there other things I’m not aware of that I might be if I were a coder? This is one area where I was glad to have my younger son agree to do a final code review. I wanted a human, experienced coder looking at all this.
+
+Privacy: At first, I didn’t pay much attention to the share URLs the code was generating. They looked like random numbers. But as I had to solve some of the database issues that cropped up, I realized these numbers represented users in the database. Also, there was a way you could change the URL to view a list even if it hadn’t been shared. I felt these were bad things and told the AI as much.
+
+“You’re right – this is a significant privacy issue. Let me think through a proper solution,” it came back with, the developed what’s been deployed, tokens that don’t map to user accounts and suggested the idea of allowing share links to expire.
+
+I was aware of this concern because I covered privacy issues like this as a journalist and have seen them come up through work issues where sites have let stuff be shared that they didn’t really want to have appear in search results. Other people with less experience might not. Heck, even coders overlook such things!
+
+(And tip. Anyone can use the Refresh Outdated Content tool if a site has removed content. If you’re a site owner, see this page about using Search Console to do removals. White we don’t have a promised removal time, it does tend to drop URLs within a few hours). 
+
+Architecture! At one point, I finally figured out I was having some account management problems because along the way in development, my administration page wasn’t fully talking with the database. It seemed to be using its own stored data somewhere at times, and it took a lot of debugging to get all that resolved. But I probably wouldn’t have had these issues if I knew about storing in databases from the beginning.
+
+Learning Curve! If it wasn’t for my older son mentioning refactoring, I might have some giant, complicated, hard-to-manage main code now. The AI tools never seemed concerned about this; Gemini itself assumed I wanted it this way. Similarly, often the tools would ask me to give the console output from my browser and – what does that mean? Actually, I had some sense of where to look for that, but others might not. On the upside, if I was confused, the models were all generally very good about detailing what I needed to look at or what buttons to push outside our chat conversation to make something happen.
+
+Vibe coding makes coders more valuable?
+This all would have been a lot easier if I’d had some coding knowledge to begin with, or so I believe. I got there, learning-by-doing, but I’m also painfully aware of what an incomplete education that remains.
+
+Maybe if some of these coding tools get more positioned for absolute beginners, all this will get better. “What’s your skill level? What do you want to do?” Questions like these to start a project, to store your code, to host it, all-in-one where you’re not having to dash from one browser window to another to figure out where to copy and paste whatever that “env var” key is etc. 
+
+But even then, for heavy duty things, I think coders continue to be essential. Yes, that’s a non-coder assessment, so I could be way off base. But if I were launching a new site that was mission-critical, as they say, that other people were seriously depending on, I’d want an actual coder involved. Maybe they themselves would vibe code the project, but they’d had the requisite skills (I hope) to do it right. 
+
+As for What To Watch Next, I’m going to continue with the vibe coding experiment – but the only reason I’m comfortable launching and letting the site run for public use is because I do have a coder I know will look over things and guide me as needed.
