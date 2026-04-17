@@ -5,32 +5,25 @@ This project is a structured SEO research system that collects, organizes, and a
 All selected experts are documented in `expert.md`, which includes 10 SEO practitioners from YouTube, Linkedin, and industry platforms. Each expert was chosen based on real-world SEO practice, case studies, and active content creation.
 
 ## Project Structure
+
 Main/
-│
-├── research/
-│   │
-│   ├── code/
-│   │     ├── youtube.py
-│   │     ├── blog.py
-│   │     ├── linkedin.py
-│   │
-│   ├── youtube-transcripts/
-│   │     ├── video1.txt
-│   │     ├── video2.txt
-│   │
-│   ├── blogs/
-│   │     ├── blog1.txt
-│   │     ├── blog2.txt
-│   │
-│   ├── linkedin-posts/
-│   │     ├── expert1.txt
-│   │     ├── expert2.txt
-│   │
-│   ├── other/
-│   │
-│   ├── expert.md
-│
 ├── README.md
+├── experts.md
+├── research/
+│
+│ ├── code/
+│ │ ├── youtube.py
+│ │ ├── blog.py
+│ │ ├── linkedin.py
+│ │
+│ ├── youtube-transcripts/
+│ │
+│ ├── linkedin-posts/
+│ │
+│ ├── other/
+
+
+
 
 ## Data Collection Methods
 
