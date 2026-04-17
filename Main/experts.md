@@ -1,5 +1,5 @@
 # SEO_Project
-AI-powered SEO content production uses artificial intelligence to automatically generate, optimize, and structure content that ranks on search engines faster and more efficiently.
+Curated list of SEO experts selected for their real-world experience and practical insights across YouTube, LinkedIn, and blogs.  
 
 ## Matt Diggity
 - Platform: YouTube, Blog
@@ -30,18 +30,6 @@ AI-powered SEO content production uses artificial intelligence to automatically 
 - Link: https://www.youtube.com/@nathangotch
 - Focus: SEO systems and training
 - Why selected: Structured and beginner-friendly SEO frameworks
-
-## Gerry White
-- Platform: Linkedin
-- Link: https://www.linkedin.com/in/dergal/
-- Focus:Technical SEO + Data Analytics + Automation
-- Why selected: Recognized for combining technical SEO with data analytics & automation.
-
-## Lily Ray
-- Platform: LinkedIn, Twitter, Conferences  
-- Link: https://www.linkedin.com/in/lily-ray/  
-- Focus: Core Updates, E-E-A-T, algorithm analysis  
-- Why selected: One of the strongest analysts of Google algorithm updates and ranking patterns.
 
 ## Aleyda Solis
 - Platform: Blog, YouTube, Twitter  
